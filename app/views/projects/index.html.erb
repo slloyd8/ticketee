@@ -1,4 +1,8 @@
-<%= link_to "New Project", new_project_path %>
+
+<%= admins_only do %>
+    <%= link_to "New Project", new_project_path %>
+<% end %>
+
 <H2>Projects</H2>
 <ul>
     <% @projects.each do |project| %>
