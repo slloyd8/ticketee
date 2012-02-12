@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e1ed7c-8ffa-49c5-95bc-daf3d4242604" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/creating_tickets.feature" afterPath="$PROJECT_DIR$/features/creating_tickets.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" />
     </list>
     <ignored path="ticketee.iws" />
@@ -33,16 +39,61 @@
       <file leaf-file-name="tickets_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="2" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+            <state line="11" column="17" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tickets_controller_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="12" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ability.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="19" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="23" selection-start="477" selection-end="477" vertical-scroll-proportion="0.22167487">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tickets_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="77" selection-start="516" selection-end="516" vertical-scroll-proportion="0.28616852">
+            <state line="11" column="42" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creating_tickets.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/creating_tickets.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="2" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permission_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/permission_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,11 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/features/creating_tickets.feature" />
-        <option value="$PROJECT_DIR$/features/deleting_tickets.feature" />
-        <option value="$PROJECT_DIR$/features/editing_tickets.feature" />
-        <option value="$PROJECT_DIR$/features/viewing_tickets.feature" />
         <option value="$PROJECT_DIR$/features/viewing_projects.feature" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/features/hidden_links.feature" />
@@ -94,8 +140,13 @@
         <option value="$PROJECT_DIR$/features/signing_up.feature" />
         <option value="$PROJECT_DIR$/app/views/users/confirmation.html.erb" />
         <option value="$PROJECT_DIR$/factories/ticket_factory.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
+        <option value="$PROJECT_DIR$/features/creating_tickets.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/ability.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -959,41 +1010,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/creating_tickets.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="80" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/deleting_tickets.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="59" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/editing_tickets.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/viewing_tickets.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/viewing_projects.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="83" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/hidden_links.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="71" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
@@ -1057,16 +1073,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/permission_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="2" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/creating_tickets.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/tickets_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="77" selection-start="516" selection-end="516" vertical-scroll-proportion="0.28616852">
+        <state line="11" column="42" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="12" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="477" selection-end="477" vertical-scroll-proportion="0.22167487">
           <folding />
         </state>
       </provider>
