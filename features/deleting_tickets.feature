@@ -23,3 +23,4 @@ Background:
     When I follow "Delete Ticket"
     Then I should see "Ticket has been deleted."
     And I should be on the project page for "TextMate 2"
+
