@@ -13,6 +13,8 @@ Feature: Editing Tickets
       | title          | description                    |
       | Make it shiny! | Gradients! Starbursts! Oh my!  |
     And "user@ticketee.com" can view the "TextMate 2" project
+    And "user@ticketee.com" can edit tickets in the "TextMate 2" project
+
     Given I am on the homepage
     When I follow "TextMate 2"
     And I follow "Make it shiny!"
