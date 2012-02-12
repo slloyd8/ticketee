@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e1ed7c-8ffa-49c5-95bc-daf3d4242604" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/users/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/assigning_permissions.feature" afterPath="$PROJECT_DIR$/features/assigning_permissions.feature" />
     </list>
     <ignored path="ticketee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +33,7 @@
       <file leaf-file-name="assigning_permissions.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/assigning_permissions.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="4" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+            <state line="31" column="74" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="67" selection-start="590" selection-end="590" vertical-scroll-proportion="0.53097343">
+            <state line="38" column="23" selection-start="869" selection-end="869" vertical-scroll-proportion="-20.625">
               <folding />
             </state>
           </provider>
@@ -87,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="permissions_helper.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="permissions_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+            <state line="6" column="51" selection-start="206" selection-end="206" vertical-scroll-proportion="0.15280136">
               <folding />
             </state>
           </provider>
@@ -125,16 +122,16 @@
         <option value="$PROJECT_DIR$/app/views/tickets/show.html.erb" />
         <option value="$PROJECT_DIR$/features/deleting_tickets.feature" />
         <option value="$PROJECT_DIR$/features/hidden_links.feature" />
-        <option value="$PROJECT_DIR$/features/assigning_permissions.feature" />
         <option value="$PROJECT_DIR$/app/controllers/admin/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/users/show.html.erb" />
         <option value="$PROJECT_DIR$/features/deleting_users.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/permission_steps.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/permissions/index.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/permissions_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/features/assigning_permissions.feature" />
+        <option value="$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb" />
       </list>
     </option>
   </component>
@@ -1073,13 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/assigning_permissions.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/factories.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1090,13 +1080,6 @@
     <entry file="file://$PROJECT_DIR$/features/step_definitions/project_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/permission_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1115,13 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/permissions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="2" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
@@ -1131,7 +1107,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="67" selection-start="590" selection-end="590" vertical-scroll-proportion="0.53097343">
+        <state line="38" column="23" selection-start="869" selection-end="869" vertical-scroll-proportion="-20.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/permission_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/assigning_permissions.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="74" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/admin/permissions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="206" selection-end="206" vertical-scroll-proportion="0.15280136">
           <folding />
         </state>
       </provider>
