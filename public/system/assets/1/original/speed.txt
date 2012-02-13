@@ -1,0 +1,1 @@
+Scenario: Creating a ticket with an attachment
