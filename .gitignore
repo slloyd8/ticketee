@@ -1,0 +1,9 @@
+$ cat .gitignore
+
+.idea
+.bundle
+log/*.log
+tmp
+public/system
+
+files
