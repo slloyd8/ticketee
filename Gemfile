@@ -16,6 +16,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'devise', '~> 1.4.3'
+gem 'cancan'
+
+gem 'paperclip'
+
 gem 'dynamic_form'
 gem 'jquery-rails'
 
@@ -41,9 +46,6 @@ group :test do
   gem 'database_cleaner'
   gem 'factory_girl'
   gem 'email_spec'
+  gem 'launchy'
 end
 
-gem 'devise', '~> 1.4.3'
-gem 'cancan'
-
-gem 'paperclip'
