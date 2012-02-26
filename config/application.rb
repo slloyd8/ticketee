@@ -44,5 +44,8 @@ module Ticketee
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # There’s a little bit of configuration you must do before this observer is used
+    config.active_record.observers = :comment_observer
   end
 end
