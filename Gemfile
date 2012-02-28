@@ -37,6 +37,7 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test, :development do
+  gem 'gmail'
   gem 'rspec-rails', '~> 2.5'
 end
 
